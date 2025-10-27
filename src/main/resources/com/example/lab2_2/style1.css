@@ -1,0 +1,12 @@
+.root {
+    -fx-background-color: #E6F0FA;
+    -fx-padding: 20;
+}
+.button{
+-fx-background-color: linear-gradient(to bottom, #8590F8, #3A45C6);
+ -fx-background-radius: 20;
+
+}
+#style2  {
+    -fx-background-color: linear-gradient(#D9D9D9 29%,#A9A7A7 55%);
+}

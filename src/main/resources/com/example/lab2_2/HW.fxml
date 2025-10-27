@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" stylesheets="@style1.css" prefWidth="1400.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2_2.HelloController">
+   <children>
+      <GridPane alignment="TOP_CENTER" layoutX="47.0" layoutY="3.0" prefHeight="623.0" prefWidth="1307.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.1518859863281" minWidth="10.0" prefWidth="210.08018493652344" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="722.5613250732422" minWidth="10.0" prefWidth="698.4198150634766" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="211.62030029296875" minWidth="10.0" prefWidth="184.3038330078125" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="186.6961669921875" minWidth="10.0" prefWidth="186.6961669921875" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField prefHeight="92.0" prefWidth="276.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="7" />
+            <TextField prefHeight="92.0" prefWidth="276.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="6" />
+            <TextField prefHeight="92.0" prefWidth="276.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="5" />
+            <TextField prefHeight="92.0" prefWidth="276.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="4" />
+            <TextField prefHeight="92.0" prefWidth="276.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="3" />
+            <TextField prefHeight="92.0" prefWidth="276.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="2" />
+            <TextField prefHeight="92.0" prefWidth="276.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="1" />
+            <TextField id="style2" alignment="CENTER" prefHeight="83.0" prefWidth="326.0" style="-fx-border-color: black; -fx-border-width: 2;" text="Предмет">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+            <TextField prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField id="style2" alignment="CENTER" prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" text="Домашнє завдання" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+            <TextField prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField prefHeight="84.0" prefWidth="708.0" style="-fx-border-width: 2; -fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField id="style2" alignment="CENTER" prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" text="Дедлайн" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <TextField id="style2" alignment="CENTER" prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" text="Статус" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <TextField prefHeight="109.0" prefWidth="194.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </GridPane>
+      <AnchorPane layoutY="632.0" prefHeight="213.0" prefWidth="1402.0">
+         <children>
+            <HBox alignment="TOP_CENTER" layoutX="4.0" layoutY="22.0" prefHeight="198.0" prefWidth="1405.0" spacing="15.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="HWadd" mnemonicParsing="false" onAction="#openHWAddPage" prefHeight="116.0" prefWidth="265.0" text="Додати">
+                     <HBox.margin>
+                        <Insets left="7.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="editHW" mnemonicParsing="false" onAction="#openEditHW" prefHeight="116.0" prefWidth="265.0" text="Редагувати">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="deleteHW" mnemonicParsing="false" onAction="#openDeleteHW" prefHeight="116.0" prefWidth="265.0" text="Видалити">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="HWstatus" mnemonicParsing="false" onAction="#openHWStatusPage" prefHeight="116.0" prefWidth="265.0" text="Статус">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="returnMainHW" mnemonicParsing="false" onAction="#openMainAfterHW" prefHeight="116.0" prefWidth="265.0" text="Назад">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" top="10.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+</Pane>

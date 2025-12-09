@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2_2.HelloController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2_2.HelloControllerShedulle">
    <children>
       <AnchorPane prefHeight="576.0" prefWidth="1360.0">
          <children>
@@ -19,7 +19,7 @@
       </AnchorPane>
       <AnchorPane prefHeight="200.0" prefWidth="200.0">
          <children>
-            <Button fx:id="returnMainMenu" layoutX="424.0" layoutY="59.0" mnemonicParsing="false" onAction="#openMainPageAfterYes" prefHeight="119.0" prefWidth="719.0" text="Повернутися до головного меню" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="340.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="41.0">
+            <Button fx:id="returnMainMenu" layoutX="424.0" layoutY="59.0" mnemonicParsing="false"  prefHeight="119.0" prefWidth="719.0" text="Повернутися до головного меню" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="340.0" AnchorPane.rightAnchor="340.0" AnchorPane.topAnchor="41.0">
                <font>
                   <Font name="System Bold" size="40.0" />
                </font>

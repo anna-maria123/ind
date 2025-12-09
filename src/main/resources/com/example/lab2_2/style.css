@@ -2,11 +2,26 @@
     -fx-background-color: #E6F0FA;
     -fx-padding: 20;
 }
-.button{
--fx-background-color: linear-gradient(to bottom, #8590F8, #3A45C6);
- -fx-background-radius: 20;
+.button {
+    -fx-background-color: linear-gradient(to bottom, #8590F8, #3A45C6);
+     -fx-background-radius: 20;
+     -fx-text-fill: #FFFFFF;
+     -fx-font-weight: bold;
+     -fx-font-size: 36px; /* зменшений шрифт */
+     -fx-cursor: hand;
+     -fx-padding: 8 16 8 16;
+     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 4, 0.5, 0, 3);
+     -fx-transition: all 0.2s ease-in-out;
+ }
 
-}
+ .button:hover {
+     -fx-background-color: linear-gradient(to bottom, #7A9FE5, #4C6ED0); /* світліший при hover */
+ }
+
+ .button:pressed {
+     -fx-background-color: linear-gradient(to bottom, #3A5BB8, #2A3F8F); /* темніший при натисканні */
+ }
+
 .text-field {
 -fx-background-color: linear-gradient(to bottom, #FEFEFE, #C4C4C4);
 -fx-background-radius: 50;
@@ -19,6 +34,38 @@
 
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 4, 0.5, 0, 4);   /* тінь */
 }
+.table-view .table-row-cell:hover {
+    -fx-background-color: #F0F4FF;        /* легкий блакитний при наведенні */
+}
+
+
+/* Заголовки колонок */
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to bottom, #4A90E2, #357ABD);
+    -fx-border-color: #357ABD;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-radius: 10px 10px 0 0;
+}
+.table-row-cell {
+    -fx-cell-size: 40px; /* стандарт 24px, зробиш більше — буде вище */
+}
+.table-view .cell {
+    -fx-font-size: 18px;       /* розмір шрифту */
+    -fx-font-weight: bold;     /* жирний текст (опційно) */
+    -fx-text-fill: #000000;    /* колір тексту */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #mainfield {
     -fx-background-color: linear-gradient(to bottom, #D9D9D9, #A9A7A7);
    -fx-background-radius: 0;

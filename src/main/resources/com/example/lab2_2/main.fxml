@@ -3,14 +3,14 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.SplitPane?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" stylesheets=" @style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2_2.HelloController">
+<VBox maxHeight="800" maxWidth="1400" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" stylesheets=" @style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2_2.MainController">
    <children>
       <AnchorPane prefHeight="94.0" prefWidth="1400.0">
          <children>
@@ -22,7 +22,7 @@
          </children></AnchorPane>
       <HBox prefHeight="199.0" prefWidth="1400.0" spacing="70.0">
          <children>
-            <Button fx:id="shedule" mnemonicParsing="false" onAction="#openShedulePageAfterMain" prefHeight="119.0" prefWidth="301.0" text="Розклад" HBox.hgrow="ALWAYS">
+            <Button fx:id="schedule" mnemonicParsing="false" onAction="#openShedulePageAfterMain" prefHeight="119.0" prefWidth="301.0" text="Розклад" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets left="5.0" top="40.0" />
                </HBox.margin>
@@ -56,30 +56,16 @@
             </Button>
          </children>
       </HBox>
-      <AnchorPane prefHeight="499.0" prefWidth="1400.0">
+      <AnchorPane prefHeight="423.0" prefWidth="1368.0">
          <children>
-            <SplitPane dividerPositions="0.13457330415754923" layoutX="433.0" layoutY="129.0" orientation="VERTICAL" prefHeight="422.0" prefWidth="920.0" AnchorPane.bottomAnchor="37.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="0.0">
-              <items>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="78.0" prefWidth="878.0">
-                     <children>
-                        <TextField id="mainfield" alignment="TOP_CENTER" prefHeight="60.0" prefWidth="880.0" text="Твої завдання на сьогодні" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                           <font>
-                              <Font size="34.0" />
-                           </font>
-                        </TextField>
-                     </children>
-                  </AnchorPane>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="386.0" prefWidth="918.0">
-                     <children>
-                        <Label layoutX="250.0" layoutY="151.0" text="Все чисто,жодних завдань">
-                           <font>
-                              <Font name="System Italic" size="40.0" />
-                           </font>
-                        </Label>
-                     </children>
-                  </AnchorPane>
-              </items>
-            </SplitPane>
+            <TableView fx:id="todayTable" layoutY="26.0" prefHeight="478.0" prefWidth="1368.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+              <columns>
+                <TableColumn fx:id="todaySubject" prefWidth="214.2903175354004" text="Предмет" />
+                <TableColumn fx:id="todayHW" prefWidth="684.2096557617188" text="Домашнє завдання" />
+                  <TableColumn fx:id="todayDedlain" prefWidth="207.22491455078125" text="Дедлайн" />
+                  <TableColumn fx:id="todayStatus" prefWidth="192.5" text="Статус" />
+              </columns>
+            </TableView>
          </children>
       </AnchorPane>
    </children>
